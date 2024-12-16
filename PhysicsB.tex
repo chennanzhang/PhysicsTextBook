@@ -1,0 +1,44 @@
+\documentclass[colortheme=olive,txconfig=txphysics.cfg]{textbook}
+\stylesetup{ 
+  fullwidth-stop = catcode,
+  boldemph = false,
+}
+\Booksetup{
+  BookSeries  = 中学经典教材丛书, 
+  BookTitle   = 高中物理（甲种本）,
+  BookTitle*  = {Textbook for Middle School Physics},
+  SubTitle    = 第二册,
+  SubTitle*   = Volume II,
+  BriefIntro    = 
+    { 
+      本书是在中小学通用教材物理编写组编的《全日制十年制学校高中课本（试用本）物理》的基础上，按照高中物理教学纲要较高要求的内容编写成的。编写中吸收了几年来各地试用中的一些经验和意见。许多省市的中学教师和有关高等院校的教师对本书征求意见稿提了有益的意见和建议。北京、安徽、江西、河南、上海、天津、浙江、江苏、湖北、广东、山西、黑龙江等省市的教研室和教育学院在本书编写过程中给予了大力支持。在此谨致谢意。希望广大教师和研究中学物理教学的同志提出批评和修改建议。
+    },
+  DedicatedTo   = 奔赴高考的莘莘学子,
+  CoverGraph    = graphics/B.pdf,
+  AuthorList    = {张同恂,方玉珍,马淑美},
+  ReleaseDate   = 2024-12-16,
+  % Url           = https://www.tjad.cn,
+  % ISBN          = 978-7-302-11622-6,
+  % Publisher     = 同济极客出版社,
+  % Logo          = graphics/logo.pdf,
+  % Editor        = {张晨南},
+  % WrittenStyle  = 著,
+}
+\graphicspath{{figures/B/}}
+\begin{document}
+\frontmatter
+\tableofcontents
+\mainmatter
+\input{contents/2-1.tex}
+\input{contents/2-2.tex}
+\input{contents/2-3.tex}
+\input{contents/2-4.tex}
+\input{contents/2-5.tex}
+\input{contents/2-6.tex}
+\input{contents/2-7.tex}
+\input{contents/2-8.tex}
+\input{contents/app2-1.tex}
+\input{contents/app2-2.tex}
+\appendix
+\input{contents/app2-3.tex}
+\end{document}

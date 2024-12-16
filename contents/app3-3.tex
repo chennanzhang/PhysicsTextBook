@@ -1,0 +1,85 @@
+\chapter{常用电磁学量的国际制单位}
+
+电磁学的单位制是一个比较复杂的问题。
+长期以来存在着多种单位制。
+本书采用的是国际单位制。在国际单位制中，所有的电磁学量，都是由长度、质量、时间、电流强度这四个基本量导出的。因此，米、千克、秒、安是电磁学里的基本单位。
+\cref{tab:SI_electromagnetism} 列出了常用的电磁学量的国际制单位。
+
+\begin{table}
+  \caption{电磁学量的国际制单位}\label{tab:SI_electromagnetism}
+\begin{tblr}{colspec={X[c]cccccX[c]},hline{3}=0.8pt}
+  \SetCell[c=2]{m,c} 物理量 & & \SetCell[c=3]{m,c} 单位 & & & \SetCell[r=2]{m,c} 量纲式 & \SetCell[r=2]{m,c} 备注\\
+  名称               & 符号      & 名称     & {中文\\符号}& {国际\\符号} &              & \\
+  电流               & $I$       & 安培     & 安          & \unit{A}      & $[I]$                      & \\
+  电量               & $Q$       & 库仑     & 库          & \unit{C}      & $[TI]$                     & \qty{1}{C}=\qty{1}{A.s}  \\
+  电场强度           & $E$       & 伏特每米 & 伏/米       & \unit{V/m}    & $[LMT^{-3}I^{-1}]$         & \\
+  电势、电势差、电压 & $U$ ($V$) & 伏特     & 伏          & \unit{V}      & $[L^2MT^{-3}I^{-1}]$       & \qty{1}{V}=\qty{1}{W/A} \\
+  电容               & $C$       & 法拉     & 法          & \unit{F}      & $[L^{-2}M^{-1}T^{4}I^{2}]$ & \qty{1}{F}=\qty{1}{C/F}\\
+  电阻               & $R$       & 欧姆     & 欧          & \unit{\ohm}   & $[L^2MT^{-3}I^{-2}]$       & \qty{1}{\ohm}=\qty{1}{V/A}\\
+  电阻率             & $\rho$    & 欧姆米   & 欧$\cdot$米 & \unit{\ohm.m} & $[L^3MT^{-3}I^{-2}]$       & \\
+  磁感应强度         & $B$       & 特斯拉   & 特          & \unit{T}      & $[MT^{-2}I^{-1}]$          & \qty{1}{T}=\qty{1}{Wb/m^2}\\
+  磁通量             & $\phi$    & 韦伯     & 韦          & \unit{Wb}     & $[L^2MT^{-2}I^{-1}]$       & \qty{1}{Wb}=\qty{1}{V.s}\\
+  电感               & $L$       & 亨利     & 亨          & \unit{H }     & $[L^2MT^{-2}I^{-2}]$       & \qty{1}{H}=\qty{1}{Wb/A}\\
+\end{tblr}
+\end{table}
+
+\chapter{常用的物理恒量}
+\begin{longtblr}[theme=plain]{colspec={X[l]rX[2,l]},colsep=1pt}
+  万有引力恒量        &  $G$          & $= \qty{6.67e-11}{N.m^2/kg^2}$ \\
+  摩尔气体恒量        &  $R$          & $= \qty{8.31}{J/(mol.K)}$      \\
+  阿伏伽德罗常数      &  $N$          & $= \qty{6.02e23}{mol^{-1}}$    \\
+  静电力恒量          &  $k$          & $= \qty{9.0e9}{N.m^2/C^2}$     \\
+  法拉第恒量          &  $F$          & $= \qty{9.65e4}{C/mol}$        \\
+  基本电荷            &  $e$          & $= \qty{1.60e-19}{C}$          \\
+  电子的质量          &  $m_e$        & $= \qty{0.91e-30}{kg}$         \\
+  质子的质量          &  $m_p$        & $= \qty{1.67e-27}{kg}$         \\
+  中子的质量          &  $m_n$        & $= \qty{1.67e-27}{kg}$         \\
+  $\alpha$ 粒子的质量 &  $m_{\alpha}$ & $= \qty{6.64e-27}{kg}$         \\
+  原子质量单位        &  $\qty{1}{u}$ & $= \qty{1.66e-27}{kg}$         \\
+  真空中光速          &  $c$          & $= \qty{3.00e8}{m/s}$          \\
+  电子的荷质比        &  $e/m$        & $= \qty{1.76e11}{C/kg}$        \\
+  氢原子的半径        &  $a_0$        & $= \qty{0.53e-10}{m}$          \\
+  普朗克恒量          &  $h$          & $= \qty{6.63e-34}{J.s}$        \\
+  里德伯恒量          &  $R$          & $= \qty{1.097e7}{m^{-1}}$      \\
+\end{longtblr}        
+
+\chapter{用于构成十进倍数和分数单位的词头}
+
+{\small
+\begin{longtblr}[
+  theme=normal,
+  caption={用于构成十进倍数和分数单位的词头}
+  ]{
+    colspec={X[c]X[c]X[c]X[c]},
+    hlines,vlines,
+    hline{1,Z}={1.5pt},
+    vline{1,Z}={1.5pt},
+    hline{2}=0.8pt,
+    rowhead=1
+    }
+所表示的因数 & 词头名称（中文）& 词头名称（英文）& 词头符号\\
+\num{e30 }   &                 & quetta-         & \unit{\quetta\mbox{}}   \\
+\num{e27 }   &                 & ronna-          & \unit{\ronna \mbox{}}   \\
+\num{e24 }   & 尧[它]          & yotta-          & \unit{\yotta \mbox{}}   \\
+\num{e21 }   & 泽[它]          & zetta-          & \unit{\zetta \mbox{}}   \\
+\num{e18 }   & 艾[可萨]        & exa-            & \unit{\exa   \mbox{}}   \\
+\num{e15 }   & 拍[它]          & peta-           & \unit{\peta  \mbox{}}   \\
+\num{e12 }   & 太[拉]          & tera-           & \unit{\tera  \mbox{}}   \\
+\num{e9  }   & 吉[咖]          & giga-           & \unit{\giga  \mbox{}}   \\
+\num{e6  }   & 兆              & mega-           & \unit{\mega  \mbox{}}   \\
+\num{e3  }   & 千              & kilo-           & \unit{\kilo  \mbox{}}   \\
+\num{e2  }   & 百              & hecto-          & \unit{\hecto \mbox{}}   \\
+\num{e1  }   & 十              & deca-           & \unit{\deca  \mbox{}}   \\
+\num{e-1 }   & 分              & deci-           & \unit{\deci  \mbox{}}   \\
+\num{e-2 }   & 厘              & centi-          & \unit{\centi \mbox{}}   \\
+\num{e-3 }   & 毫              & milli-          & \unit{\milli \mbox{}}   \\
+\num{e-6 }   & 微              & micro-          & \unit{\micro \mbox{}}   \\
+\num{e-9 }   & 纳[诺]          & nano-           & \unit{\nano  \mbox{}}   \\
+\num{e-12}   & 皮[可]          & pico-           & \unit{\pico  \mbox{}}   \\
+\num{e-15}   & 飞[母托]        & femto-          & \unit{\femto \mbox{}}   \\
+\num{e-18}   & 阿[托]          & atto-           & \unit{\atto  \mbox{}}   \\
+\num{e-21}   & 仄[普托]        & zepto-          & \unit{\zepto \mbox{}}   \\
+\num{e-24}   & 幺[科托]        & yocto-          & \unit{\yocto \mbox{}}   \\
+\num{e-27}   &                 & ronto-          & \unit{\ronto \mbox{}}   \\
+\num{e-30}   &                 & quecto-         & \unit{\quecto\mbox{}}   \\
+\end{longtblr}}

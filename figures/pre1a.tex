@@ -1,0 +1,18 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{ctex,siunitx}
+\setCJKmainfont{Noto Serif CJK SC}
+\usepackage{tkz-euclide}
+\usepackage{amsmath}
+\usetikzlibrary{patterns, calc}
+\usetikzlibrary {decorations.pathmorphing, decorations.pathreplacing, decorations.shapes,}
+\begin{document}
+\small
+\begin{tikzpicture}[>=stealth, thick,scale=1]
+  \useasboundingbox(-0.1,-0.5)rectangle(4.2,3.2);
+  \draw [<->](0,3)--(0,0)--(4,0);
+  \node at (.5,3) {温度};
+  \node at (3.75,-.25) {时间};
+  \draw (.5,.5)--(1.5,1.5)--(2.5,1.5)--(3.5,2.5);
+\end{tikzpicture}
+\end{document}
